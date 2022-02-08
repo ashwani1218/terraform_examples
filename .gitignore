@@ -4,3 +4,4 @@
 *.log
 terraform.*
 *.pem
+.DS_Store

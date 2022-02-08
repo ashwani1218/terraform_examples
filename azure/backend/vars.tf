@@ -5,5 +5,5 @@ variable "location" {
   default = "eastus"
 }
 variable "accounttier" {
-  default = "Basic"
+  default = "Standard"
 }
