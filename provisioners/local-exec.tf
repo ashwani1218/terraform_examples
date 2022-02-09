@@ -6,6 +6,6 @@ resource "aws_instance" "myec2" {
   provisioner "local-exec" {
     command = "echo ${aws_instance.myec2.private_ip} >> private_ips.txt"
   }
-}
+}   
 
 
